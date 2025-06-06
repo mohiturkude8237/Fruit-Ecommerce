@@ -2,8 +2,8 @@ import React from "react";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { assets } from "../assets/assets";
 import {motion} from "framer-motion";
-import { FadeRight } from "../utility/animation";
-import { FadeUp } from "../utility/animation";
+import { FadeRight } from "../Utility/animation";
+import { FadeUp } from "../Utility/animation";
 
 const Hero = () => {
   return (
