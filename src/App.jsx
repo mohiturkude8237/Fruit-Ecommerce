@@ -1,12 +1,29 @@
-import React from 'react'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Products from "./pages/Products";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
+import Contacts from "./pages/Contacts";
+import Navbar1 from "./components/Navbar1";
+import ResponsiveMenu from "./components/ResponsiveMenu";
+import Hero1 from "./components/Hero1";
 
 const App = () => {
   return (
-    <div className='text-center text-2xl font-bold bg-green-950 text-white'>
-        This is app component.
-      
-    </div>
-  )
-}
+    <main className="overflow-x-hidden">
+      <Navbar1 />
+
+      {/* <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/products' element={<Products />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/shop' element={<Shop />} />
+        <Route path='/contacts' element={<Contacts />} />
+      </Routes> */}
+      <Hero1/>
+    </main>
+  );
+};
 
 export default App;
