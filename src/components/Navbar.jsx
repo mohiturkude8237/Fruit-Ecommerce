@@ -42,7 +42,7 @@ const Navbar = () => {
           {/* Logo section */}
           <div className="text-xl md:text-2xl flex items-center gap-2 font-bold uppercase ml-6">
             <p className="primary">Fruit</p>
-            <p className="secondary">Stores</p>
+            <p className="secondary">Store</p>
             <FaLeaf className="text-green-500" />
           </div>
           {/* Menu section */}
