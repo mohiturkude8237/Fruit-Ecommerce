@@ -18,13 +18,13 @@ const Banner = () => {
         </div>
         {/* Banner Info */}
         <div className="flex flex-col justify-center">
-          <div className="text-center md:text-left space-y-4 sm:px-6 lg:max-w-[400px] px-6 md:px-0 max-w-full">
+          <div className="text-left space-y-4 sm:px-6 lg:max-w-[400px] px-10 md:px-0 max-w-full">
             <motion.h1
               variants={FadeUp(0.5)}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="text-3xl lg:text-4xl uppercase font-bold justify-center"
+              className="text-center md:text-left text-3xl lg:text-4xl uppercase font-bold justify-center"
             >
               Brand Info
             </motion.h1>
