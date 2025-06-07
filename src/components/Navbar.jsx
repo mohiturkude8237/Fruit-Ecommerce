@@ -40,7 +40,7 @@ const Navbar = () => {
       <nav>
         <div className="container flex justify-between items-center py-4 md:pt-4">
           {/* Logo section */}
-          <div className="text-xl md:text-2xl flex items-center gap-2 font-bold uppercase ml-6">
+          <div className="text-xl md:text-2xl flex items-center gap-2 font-bold uppercase ml-10">
             <p className="primary">Fruit</p>
             <p className="secondary">Store</p>
             <FaLeaf className="text-green-500" />
