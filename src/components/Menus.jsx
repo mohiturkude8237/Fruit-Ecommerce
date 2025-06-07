@@ -60,7 +60,7 @@ const Menus = () => {
             whileInView={"visible"}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            className="w-[90%] max-w-[300px] mx-auto md:max-w-none  bg-white rounded-3xl   py-3 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row items-center justify-center  gap-2 md:gap-4 hover:shadow-[0_0_22px_0_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out relative">
+            className="w-[90%] max-w-[300px] mx-auto md:max-w-none  bg-gray-200 rounded-3xl   py-3 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row items-center justify-center  gap-2 md:gap-4 hover:shadow-[0_0_22px_0_rgba(0,0,0,0.25)] transition-all duration-300 ease-in-out relative">
               <img
                 src={menu.img}
                 alt=""
