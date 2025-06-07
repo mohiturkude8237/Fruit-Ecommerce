@@ -6,7 +6,7 @@ import { FadeLeft, FadeRight, FadeUp } from "../Utility/animation";
 
 const Banner = () => {
   return (
-    <section className="bg-amber-200 m-10 rounded-2xl shadow-[0px_10px_14px_-7px_rgba(222,0,41,0.3)]">
+    <section className="bg-amber-200 m-4 md:m-10 rounded-2xl shadow-[0px_10px_14px_-7px_rgba(222,0,41,0.3)]">
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-4 py-14">
         {/* Banner Image */}
         <div className="flex justify-center md:justify-end items-center gap-5 md:pr-10">
