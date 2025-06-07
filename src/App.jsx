@@ -11,6 +11,7 @@ import Hero from "./components/Hero";
 import Menus from "./components/Menus";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+import Banner2 from "./components/Banner2";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <Hero/>
       <Menus/>
       <Banner/>
+      <Banner2/>
     </main>
           <Footer/>
 
