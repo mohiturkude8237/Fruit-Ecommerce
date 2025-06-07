@@ -19,21 +19,40 @@ const Banner = () => {
         {/* Banner Info */}
         <div className="flex flex-col justify-center">
           <div className="text-center md:text-left space-y-4 lg:max-w-[400px]">
-            <h1>Brand Info</h1>
-            <p>
+            <motion.h1
+              variants={FadeUp(0.5)}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              className="text-3xl lg:text-5xl uppercase font-bold"
+            >
+              Brand Info
+            </motion.h1>
+            <motion.p
+              variants={FadeUp(0.7)}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
               deleniti quod autem cupiditate quibusdam saepe commodi ex dolorem
               quam. Fuga voluptates sapiente iure quibusdam necessitatibus
               soluta placeat quidem, quasi quis?
-            </p>
-            <p>
+            </motion.p>
+            <motion.p
+            variants={FadeUp(0.7)}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }
+            }
+            >
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab minus
               at temporibus et, perferendis expedita quia necessitatibus velit,
               tempora nesciunt laborum dolore minima eveniet cumque quisquam
               esse. Fuga deleniti aspernatur consequatur esse nisi magni ut
               perferendis sit asperiores, minima laboriosam laudantium laborum
               dicta est, voluptas odio temporibus harum voluptates voluptatum?
-            </p>
+            </motion.p>
             {/* button section */}
             <motion.div
               variants={FadeUp(1.5)}
