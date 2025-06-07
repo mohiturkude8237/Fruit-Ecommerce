@@ -7,9 +7,9 @@ import { FadeLeft, FadeRight, FadeUp } from "../Utility/animation";
 const Banner = () => {
   return (
     <section>
-      <div className="container grid grid-cols-1 md:grid-cols-2 space-y-8 md:space-y-0 py-14">
+      <div className="container grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-4 py-14">
         {/* Banner Image */}
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center md:justify-end items-center gap-5 md:pr-10">
           <img
             src={assets.fruits_splash}
             alt=""
@@ -18,13 +18,13 @@ const Banner = () => {
         </div>
         {/* Banner Info */}
         <div className="flex flex-col justify-center">
-          <div className="text-center md:text-left space-y-4 lg:max-w-[400px]">
+          <div className="text-center md:text-left space-y-4 sm:px-6 lg:max-w-[400px] px-6 md:px-0 max-w-full">
             <motion.h1
               variants={FadeUp(0.5)}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="text-3xl lg:text-5xl uppercase font-bold"
+              className="text-3xl lg:text-4xl uppercase font-bold justify-center"
             >
               Brand Info
             </motion.h1>
@@ -40,7 +40,7 @@ const Banner = () => {
               soluta placeat quidem, quasi quis?
             </motion.p>
             <motion.p
-            variants={FadeUp(0.7)}
+            variants={FadeUp(0.9)}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }
@@ -55,7 +55,7 @@ const Banner = () => {
             </motion.p>
             {/* button section */}
             <motion.div
-              variants={FadeUp(1.5)}
+              variants={FadeUp(1.1)}
               initial="hidden"
               animate="visible"
               className="flex justify-center md:justify-start"
