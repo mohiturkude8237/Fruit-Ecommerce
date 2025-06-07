@@ -63,7 +63,12 @@ const Footer = () => {
           <FaLeaf className="text-white" />
         </div>
 
-          
+        {/* Ownership section */}
+        <div className="font-semibold text-center mt-4 md:mt-0">
+          <p className="text-white mb-4">© 2025 Fruit Store. All rights reserved.</p>
+          <h1>Designed & Developed By Mohit Urkude</h1>
+        </div>
+
         
 
         {/* Social Icons */}

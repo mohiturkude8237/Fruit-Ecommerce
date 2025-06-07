@@ -7,7 +7,7 @@ import { FadeUp } from "../Utility/animation";
 
 const Hero = () => {
   return (
-      <section className="ml-2 sm:ml-4 md:ml-8 lg:ml-16">
+      <section className="ml-2 sm:ml-4 md:ml-8 lg:ml-16 mt-10">
         <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative">
           {/* Brand Info */}
           <div className="flex flex-col justify-center py-12 md:py-0 relative z-10">
@@ -15,7 +15,7 @@ const Hero = () => {
               <motion.h1 variants={FadeRight(0.6)} 
               initial="hidden"
               animate="visible"
-              className="text-5xl lg:text-6xl font-bold leading-relaxed averia-serif-libre-regular">
+              className="text-5xl lg:text-6xl font-bold leading-relaxed averia-serif-libre-regular mt-8">
                 Healthy
                 <br />
                 Fresh <span className="text-orange-600">Fruits!</span>
@@ -49,7 +49,7 @@ const Hero = () => {
               className="w-[350px] md:w-[550px] drop-shadow "
             />
           {/* Leaf Image */}
-          <div className="absolute top-14 md:top-0 right-1/2  opacity-100 rotate-[40deg]">
+          <div className="absolute top-20 md:top-20 right-1/2  opacity-100 rotate-[40deg]">
             <motion.img initial={{opacity:0,y:-200,rotate:75}} animate={{opacity:1,y:0,rotate:0}} transition={{duration:1,delay:1.5}} src={assets.leaf} alt="" className="blur md:blur-none w-full md:max-w-[300px]"/>
 
           </div>

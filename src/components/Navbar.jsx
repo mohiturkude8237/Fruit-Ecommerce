@@ -38,21 +38,21 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container flex justify-between items-center py-4 md:pt-4">
+        <div className="w-full flex justify-between items-center py-4 md:pt-4 bg-gradient-to-r from-green-600 to-lime-500 text-white shadow-md fixed top-0 left-0 z-50 opacity-70 backdrop-blur-md ">
           {/* Logo section */}
           <div className="text-xl md:text-2xl flex items-center gap-2 font-bold uppercase ml-10">
-            <p className="primary">Fruit</p>
-            <p className="secondary">Store</p>
-            <FaLeaf className="text-green-500" />
+            <p className="text-white">Fruit</p>
+            <p className="text-yellow-200">Store</p>
+            <FaLeaf className="text-white" />
           </div>
           {/* Menu section */}
           <div className="hidden md:block">
-            <ul className="flex items-center gap-6 text-gray-600">
+            <ul className="flex items-center gap-6 text-white">
               {NavbarMenu.map((menu) => (
                 <li key={menu.id}>
                   <a
                     href={menu.link}
-                    className="inline-block py-1 px-3 hover:text-red-600 hover:shadow-[0_3px_0_-1px_#ef4444] font-semibold"
+                    className="inline-block py-1 px-3 hover:text-yellow-200 hover:shadow-[0_5px_0_-1px_#c9c630] font-semibold"
                   >
                     {menu.title}
                   </a>
