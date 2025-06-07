@@ -6,7 +6,7 @@ import { FadeUp } from "../Utility/animation";
 const Banner2 = () => {
   return (
     <section className="bg-gray-200 m-4 md:m-10 rounded-2xl shadow-[0px_10px_14px_-7px_rgba(222,0,41,0.3)]">
-      <div className="max-w-7xl mx-auto w-full px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 py-14 items-center">
+      <div className="max-w-5xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-4 py-14 items-center">
         {/* Banner Info */}
         <div className="flex flex-col justify-center">
           <div className="text-left space-y-4 px-2 md:px-0 max-w-full md:max-w-[500px] mb-8">
