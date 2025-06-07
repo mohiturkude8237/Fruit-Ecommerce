@@ -14,7 +14,7 @@ const bgStyle={
 const Banner3 = () => {
   return (
     <section className="bg-gray-200 m-4 md:m-10 rounded-2xl shadow-[0px_10px_14px_-7px_rgba(222,0,41,0.3)]">
-      <div style={bgStyle} className="max-w-7xl mx-auto w-full px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 py-14 items-center">
+      <div style={bgStyle} className="max-w-7xl mx-auto w-full px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-10 py-14 items-center rounded-3xl">
         {/* Banner Image */}
         <div className="flex justify-center md:justify-end items-center">
         </div>

@@ -17,27 +17,25 @@ import Banner3 from "./components/Banner3";
 const App = () => {
   return (
     <>
-    <main className="overflow-x-hidden ">
-      <Navbar/>
+      <main className="overflow-x-hidden ">
+        <Navbar />
 
-      {/* <Routes>
+        {/* <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/products' element={<Products />} />
         <Route path='/about' element={<About />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes> */}
-      <Hero/>
-      <Menus/>
-      <Banner/>
-      <Banner2/>
-      <Banner3/>
-    </main>
-          <Footer/>
-
+        <Hero />
+        <Menus />
+        <Banner />
+        <Banner2 />
+        <Banner3 />
+        <Footer />
+      </main>
     </>
   );
 };
 
 export default App;
-
