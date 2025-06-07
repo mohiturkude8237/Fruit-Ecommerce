@@ -14,6 +14,6 @@ export const assets={
     fruit_plate,
     leaf,
     fruits_splash,
-    fruit_plate2
+    fruit_plate2,
     
 }
