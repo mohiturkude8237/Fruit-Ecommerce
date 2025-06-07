@@ -38,10 +38,10 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="w-full flex justify-between items-center py-4 md:pt-4 bg-gradient-to-r from-green-600 to-lime-500 text-white shadow-md fixed top-0 left-0 z-50 opacity-70 backdrop-blur-md ">
+        <div className="w-full flex justify-between items-center py-4 md:pt-4 bg-gradient-to-r from-lime-500 to-green-500 text-white shadow-md fixed top-0 left-0 z-50 opacity-70 backdrop-blur-md ">
           {/* Logo section */}
           <div className="text-xl md:text-2xl flex items-center gap-2 font-bold uppercase ml-10">
-            <p className="text-white">Fruit</p>
+            <p className="text-orange-600">Fruit</p>
             <p className="text-yellow-200">Store</p>
             <FaLeaf className="text-white" />
           </div>
