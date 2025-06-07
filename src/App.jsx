@@ -9,6 +9,7 @@ import Navbar from "./components/Navbar";
 import ResponsiveMenu from "./components/ResponsiveMenu";
 import Hero from "./components/Hero";
 import Menus from "./components/Menus";
+import Banner from "./components/Banner";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       </Routes> */}
       <Hero/>
       <Menus/>
+      <Banner/>
     </main>
   );
 };
