@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-    <main className="overflow-x-hidden md:ml-10">
+    <main className="overflow-x-hidden ">
       <Navbar/>
 
       {/* <Routes>
