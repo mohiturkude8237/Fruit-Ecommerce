@@ -17,7 +17,7 @@ const Banner2 = () => {
               viewport={{ once: true }}
               className="text-center md:text-left text-3xl lg:text-4xl uppercase font-bold text-orange-500 patua-one-regular"
             >
-              Brand Info
+              Bountiful Fruits
             </motion.h1>
 
             <motion.p
@@ -55,7 +55,7 @@ const Banner2 = () => {
               className="flex justify-center md:justify-start"
             >
               <button className="bg-red-500 text-white font-semibold py-3 px-6 rounded-xl shadow-[0px_10px_14px_-7px_#de0029] hover:!scale-110 duration-300">
-                Learn More
+                Download the App
               </button>
             </motion.div>
           </div>
@@ -63,10 +63,9 @@ const Banner2 = () => {
         {/* Banner Image */}
         <div className="flex justify-center md:justify-end items-center">
           <motion.img
-            initial={{ opacity: 0, scale: 0.5 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
-            viewport={{ once: true }}
+            initial={{ opacity: 0, x:200,rotate: 75 }}
+            animate={{ opacity: 1, x: 0, rotate: 0 }}
+            transition={{ duration: 1, delay: 0.2 }}
             src={assets.fruit_plate2}
             alt="fruit splash"
             className="w-full max-w-[300px] md:max-w-[400px] object-contain"
