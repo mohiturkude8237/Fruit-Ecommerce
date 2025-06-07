@@ -10,7 +10,11 @@ const Banner = () => {
       <div className="container grid grid-cols-1 md:grid-cols-2 gap-y-8 md:gap-y-0 md:gap-x-4 py-14">
         {/* Banner Image */}
         <div className="flex justify-center md:justify-end items-center gap-5 md:pr-10">
-          <img
+          <motion.img
+          initial={{ opacity: 0, scale:0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
+          viewport={{ once: true }}
             src={assets.fruits_splash}
             alt=""
             className="w-[300px] md:max-w-[400px] h-full object-cover"
@@ -24,7 +28,7 @@ const Banner = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              className="text-center md:text-left text-3xl lg:text-4xl uppercase font-bold justify-center text-orange-500 "
+              className="text-center md:text-left text-3xl lg:text-4xl uppercase font-bold justify-center text-orange-500 patua-one-regular "
             >
               Brand Info
             </motion.h1>

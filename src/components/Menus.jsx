@@ -49,7 +49,7 @@ const Menus = () => {
         initial={{opacity: 0, x: -200}}
         whileInView={{opacity: 1, x: 0}}
         transition={{duration: 1,delay: 0.3}}
-        className="text-2xl font-bold md:text-left pb-10 uppercase">
+        className="text-2xl font-bold md:text-center pb-10 uppercase text-red-500 patua-one-regular">
           Our Menu
         </motion.h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
