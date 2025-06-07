@@ -110,7 +110,7 @@ const Banner = () => {
               viewport={{ once: true }}
               className="text-center md:text-left text-3xl lg:text-4xl uppercase font-bold text-orange-500 patua-one-regular"
             >
-              Brand Info
+              Juicy Treasures
             </motion.h1>
 
             <motion.p
