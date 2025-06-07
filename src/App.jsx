@@ -12,6 +12,7 @@ import Menus from "./components/Menus";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Banner2 from "./components/Banner2";
+import Banner3 from "./components/Banner3";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
       <Menus/>
       <Banner/>
       <Banner2/>
+      <Banner3/>
     </main>
           <Footer/>
 
