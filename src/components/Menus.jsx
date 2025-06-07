@@ -4,6 +4,8 @@ import apple from "../assets/fruits/apple.png";
 import orange from "../assets/fruits/orange.png";
 import avocado from "../assets/fruits/avocado.png";
 import cherry from "../assets/fruits/cherry.png";
+import { motion } from "framer-motion";
+import {FadeLeft} from "../Utility/animation.jsx"; 
 const MenusData = [
   {
     id: 1,
@@ -37,18 +39,18 @@ const MenusData = [
 
 const Menus = () => {
   return (
-    <section>
-      <div className="container pt-12 pb-20">
+    <section className="bg-[#F8F8F8]">
+      <div className="container pt-30 pb-20">
         <h1 className="text-2xl font-bold text-left pb-10 uppercase">
           Our Menu
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {MenusData.map((menu) => (
             <div className="bg-white rounded-3xl px-4 py-2 shadow-[0_0_22px_0_rgba(0,0,0,0.15)] flex flex-row justify-around items-center gap-3">
               <img
                 src={menu.img}
                 alt=""
-                className="w-[60px] mb-4 scale-125 transform -translate-y-6"
+                className="w-[60px] mb-4 scale-110 transform -translate-y-6 mt-10"
               />
               <div>
                 <h1 className="text-lg font-semibold">{menu.title}</h1>
