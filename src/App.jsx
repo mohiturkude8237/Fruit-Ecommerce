@@ -10,6 +10,7 @@ import ResponsiveMenu from "./components/ResponsiveMenu";
 import Hero from "./components/Hero";
 import Menus from "./components/Menus";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Hero/>
       <Menus/>
       <Banner/>
+      <Footer/>
     </main>
   );
 };
